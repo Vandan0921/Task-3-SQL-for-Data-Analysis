@@ -131,12 +131,3 @@ where CategoryID in
 select sum(DATEDIFF ( year , customer.DOB , getdate() ))/Count(customerid) as "Average Age"
 from Customer
 ```
-
-# Contributors
-
-Do check the contributors to follow some awesome projects
-
-- [@mohammadusman666](https://github.com/mohammadusman666)
-- [@abeer04](https://github.com/abeer04)
-
-`Feel free to fork the repository and contribute to this project.`
